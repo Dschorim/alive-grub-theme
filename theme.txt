@@ -19,7 +19,7 @@ message-color: "#757575"
   item_spacing = 35
   menu_pixmap_style = "boot_menu_*.png"
   item_font = "Poppins Regular 18"
-  item_color = "#ffffff"
+  item_color = "#888888"
   item_pixmap_style = "item_*.png"
   selected_item_color= "#ffffff"
   selected_item_pixmap_style = "select_*.png"
