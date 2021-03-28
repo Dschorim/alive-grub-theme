@@ -5,37 +5,6 @@ desktop-image: "background.png"
 title-text:" "
 message-font: "Poppins Regular 14"
 message-color: "#757575"
-terminal-font: "Terminus Regular 14"
-terminal-box: "terminal_*.png"
-
-+label{
-text="Grub Bootloader"
-font = "Poppins Regular 48"
-color="#99C6FF"
-left = 50%-200
-top = 15%
-height = 20
-width = 400      
-align = "center"
-
-}
-
-+label{
-text="select your preferred os"
-font = "Poppins Refular 16"
-color="#99c6FF"
-top=30%-30
-left = 50%-80
-align = "center"
-width=160
-height= 40
-
-
-
-}
-
-
-
 
 + boot_menu {
   left = 20%
@@ -50,7 +19,7 @@ height= 40
   item_spacing = 35
   menu_pixmap_style = "boot_menu_*.png"
   item_font = "Poppins Regular 18"
-  item_color = "#999B96"
+  item_color = "#ffffff"
   item_pixmap_style = "item_*.png"
   selected_item_color= "#ffffff"
   selected_item_pixmap_style = "select_*.png"
@@ -76,12 +45,12 @@ height= 40
 
 
 + label {
-       left = 50%-300
-        top = 80%+20
-        height = 20
-        width = 600
-        font = "Poppins Regular 14"      
-        align = "center"
-        color = "#99C6FF"
-        text = "@KEYMAP_SHORT@"
+  left = 50%-300
+  top = 80%+20
+  height = 20
+  width = 600
+  font = "Poppins Regular 14"      
+  align = "center"
+  color = "#99C6FF"
+  text = "@KEYMAP_SHORT@"
 }
